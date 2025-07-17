@@ -5,10 +5,12 @@
 
 package com.example;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.lang.System.Logger;
+import java.util.logging.LogManager;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for TestLogger using Log4j 2.x and JUnit 5.
