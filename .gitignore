@@ -1,0 +1,34 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/build/
+/out/
+/bin/
+
+# Copilot
+.copilot/
+
+# Others
+*.swp
+
+/tests/
+.prettierrc
+.editorconfig
