@@ -7,13 +7,12 @@ package com.example;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.lang.System.Logger;
 import java.util.logging.LogManager;
 
 import org.junit.jupiter.api.Test;
 
 /**
- * Unit test for TestLogger using Log4j 2.x and JUnit 5.
+ * Unit test for Log4j 2.x logging using JUnit 5.
  */
 public class TestLoggerTest {
     private static final Logger logger = LogManager.getLogger(TestLoggerTest.class);
